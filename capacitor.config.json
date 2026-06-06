@@ -1,0 +1,6 @@
+{ 
+  "appId": "com.aybo.cad", 
+  "appName": "AYBO INC", 
+  "webDir": "client/dist", 
+  "server": { "androidScheme": "https" } 
+} 

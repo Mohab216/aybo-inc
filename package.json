@@ -1,9 +1,13 @@
 {
   "name": "aybo-inc",
-  "private": true,
+  "version": "4.0.0",
   "scripts": {
-    "install:all": "npm install && npm --prefix client install && npm --prefix server install",
-    "dev:client": "npm --prefix client run dev",
-    "dev:server": "npm --prefix server run dev"
+    "build": "cd client && npm install && npm run build",
+    "ionic:build": "cd client && npm install && npm run build"
+  },
+  "dependencies": {
+    "@capacitor/core": "^5.7.0",
+    "@capacitor/android": "^5.7.0",
+    "@capacitor/cli": "^5.7.0"
   }
 }
