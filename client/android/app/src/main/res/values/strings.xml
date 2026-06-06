@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AYBO INC</string>
+    <string name="title_activity_main">AYBO INC</string>
+    <string name="package_name">com.aybo.cad</string>
+    <string name="custom_url_scheme">com.aybo.cad</string>
+</resources>
